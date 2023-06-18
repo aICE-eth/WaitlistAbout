@@ -14,18 +14,18 @@ li{
   display:flex;
   justify-content: space-between;
   left: 42.5%;
-  top: 25%;
+  top: 30%;
 }
 
-.LogoAlt{
+.logoAlt{
   position: absolute;
   left:45%;
+  top: 14%;
 }
 
 .course{
   font-size: 40px;
   margin-left: 20px;
-  margin-right: 10px;
 }
 .purple{
   color: #9980E1;
@@ -35,34 +35,28 @@ li{
 
 .nav{
   display: flex;
-  background-color: gray;
   height:100px;
   align-items: center;
 }
 
-h2{
-  color: white;
-  font-size: 35px;
-}
 .aboutLi{
   display: flex;
 }
 
 .h2About{
-  font-size: 25px;
-  color: lightgray;
+  font-size: 30px;
 }
 
 .About{
-  width: 150px;
-  height: 80px;
+  width: 200px;
+  height: 90px;
   background-color: transparent;
   border: none;
   position:absolute;
   right:auto;
-  left:90%;
+  left:85%;
   bottom: 90%;
-  top:2.6%
+  top:3%
 
 }
 
@@ -71,33 +65,40 @@ h2{
   border-radius: 10px;
 }
 
+
+
 .input{
-  margin-top: 45px;
-  margin-left: 35.5%;
-  width: 400px;
-  height: 80px;
-  border-radius: 20px;
+  margin-top: 4px;
+  margin-left: 32%;
+  width: 500px;
+  height: 70px;
+  border-radius: 10px;
 }
 
 input,
 .imput::placeholder{
-  font-size: 25px;
+  font-size: 24px;
+  padding-left: 20px;
 }
 
 .waitlist{
-  margin-top: 250px;
-  margin-left: 46.7%;
-  color: black;
+  margin-top: 255px;
+  margin-bottom: 120px;
+  margin-left: 46%;
+  color: gray;
+
 }
 
 .save{
-  height: 80px;
-  border-radius: 20px;
+  height: 70px;
+  border-radius: 10px;
   font-size: 25px;
+  color: white;
   background-color:#9980E1;
   border:none;
-  width: 150px;
-  box-shadow: 5px 5px 5px;
+  width: 200px;
+  box-shadow: 0px 2px 3px 0px black;
+  
   margin-left: 15px;
 }
 
@@ -105,87 +106,55 @@ input,
   background-color: #8871cc ;
 }
 
-
-
-body {
-  margin: 0;
-  padding: 0;
+.save:active{
+  background-color: #635491 ;
+ 
 }
 
-.coming-soon {
-  font-weight: 600;
-}
-
-.about-us-container {
-  margin: 40px auto;
-  padding: 40px;
-  max-width: 800px;
-  background-color: #f5f5f5;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-  margin-top: 50px;
-}
-
-.about-us-heading {
-  font-size: 28px;
-  margin: 0;
-  margin-right: 25px;
-}
-
-.paragraph-container {
+.delete{
+  background-color:#9980E1;
+  height: 70px;
+  width:180px;
+  font-size: 25px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 5px 5px 5px;
+  margin-left: 44%;
   margin-top: 20px;
 }
 
-.paragraph-container p {
-  line-height: 1.6;
-  margin-bottom: 15px;
-  color: #2B2B2B;
+.delete:hover{
+  background-color: #8871cc ;
 }
 
-.header-bar {
-  background-color: #D3D3D3;
-  padding: 8px;
-  color: #2B2B2B;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); 
+.delete:active{
+  background-color: #635491 ;
+
 }
 
-.logo {
-  margin-right: 10px;
-  width: 50px;
-  height: 50px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.header-content {
-  display: flex;
-  align-items: center;
-  flex-grow: 1;
-  justify-content: center;
-}
-
-.header-title {
-  font-size: 36px;
-  margin: 0;
+.thank-you{
   text-align: center;
-  display: flex;
-  align-items: center;
+  font-size: 35px;
+  font-weight: 700;
+  text-decoration: bold ;
+  color:white
 }
 
-.header-title-course {
-  color: black;
+.thankBtn{
+  border: none;
+  width: 20%;
+  margin-left: 40.2%;
+  background:#9980E1;
+  border-radius: 15px;
 }
 
-.header-title-cubes {
-  color: #7600D3;
+.thankBtn:hover{
+  background-color: #8871cc;
 }
 
-.about-us-text {
-  font-size: 24px;
-  margin-left: auto;
-  margin-right: 20px;
+.thankBtn:active{
+  background-color: #635491;
 }
+
+
 
